@@ -177,8 +177,8 @@
   "tag.starcatcher.eels" : "ウナギ",
   "tag.starcatcher.shrimps" : "エビ",
 
-  "tag.starcatcher.has_radar_layer" : "魚レーダーレイヤーあり",
-  "tag.starcatcher.has_tracker_layer" : "魚トラッカーレイヤーあり",
+  "tag.starcatcher.has_radar_layer" : "フィッシュレーダーレイヤーあり",
+  "tag.starcatcher.has_tracker_layer" : "フィッシュトラッカーレイヤーあり",
   "tag.starcatcher.has_farmland_interaction" : "耕地インタラクションあり",
 
   "sounds.starcatcher.minigame_starts" : "釣りスタート！",
@@ -621,9 +621,9 @@
   "block.starcatcher.fisherman_hat_white": "白色の釣り人の帽子",
   "block.starcatcher.fisherman_hat_yellow": "黄色の釣り人の帽子",
 
-  "item.starcatcher.fish_radar": "魚レーダー",
-  "tooltip.starcatcher.fish_radar.0": "周辺の魚を近未来的な表示で",
-  "tooltip.starcatcher.fish_radar.1": "映し出す便利なレーダー",
+  "item.starcatcher.fish_radar": "フィッシュレーダー",
+  "tooltip.starcatcher.fish_radar.0": "周辺の魚を映し出す",
+  "tooltip.starcatcher.fish_radar.1": "近未来で便利なレーダー",
 
   "item.starcatcher.pearl" : "真珠",
   "tooltip.starcatcher.pearl.0" : "ハマグリから得られた美しい真珠",
