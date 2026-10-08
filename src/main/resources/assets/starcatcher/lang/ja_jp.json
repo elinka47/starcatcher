@@ -276,16 +276,16 @@
 
   "item.starcatcher.starcatcher_rod": "Starcatcherの釣り竿",
 
-  "item.starcatcher.naturalist_rod": "博物学者の釣り竿",
-  "item.starcatcher.iceborn_rod": "氷生まれの釣り竿",
-  "item.starcatcher.magmaforged_rod": "マグマ鍛造の釣り竿",
-  "item.starcatcher.slimed_rod": "スライムまみれの釣り竿",
+  "item.starcatcher.naturalist_rod": "自然主義者の釣り竿",
+  "item.starcatcher.iceborn_rod": "アイスボーンの釣り竿",
+  "item.starcatcher.magmaforged_rod": "溶岩鍛造の釣り竿",
+  "item.starcatcher.slimed_rod": "べとべとの釣り竿",
   "item.starcatcher.sharktooth_rod": "サメの歯の釣り竿",
   "item.starcatcher.azure_crystal_rod": "青水晶の釣り竿",
   "item.starcatcher.bamboo_rod": "竹の釣り竿",
   "item.starcatcher.obsidian_rod": "黒曜石の釣り竿",
-  "item.starcatcher.boner_rod": "骨の釣り竿",
-  "item.starcatcher.sky_rod": "大空の釣り竿",
+  "item.starcatcher.boner_rod": "骨ばった釣り竿",
+  "item.starcatcher.sky_rod": "天空の釣り竿",
   "item.starcatcher.lush_glowberry_rod": "繁茂したグロウベリーの釣り竿",
   "item.starcatcher.humble_rod": "質素な釣り竿",
 
@@ -522,7 +522,7 @@
   "item.starcatcher.almighty_worm": "全能のミミズ",
 
   "item.starcatcher.gunpowder_bait": "火薬の餌",
-  "item.starcatcher.targeted_bait": "ターゲット指定の餌",
+  "item.starcatcher.targeted_bait": "狙い打ちの餌",
   "item.starcatcher.cherry_bait": "桜の餌",
   "item.starcatcher.lush_bait": "繁茂の餌",
   "item.starcatcher.sculk_bait": "スカルクの餌",
@@ -543,8 +543,8 @@
   "item.starcatcher.pearl_smithing_template": "真珠装飾のタックル鍛冶型",
   "item.starcatcher.colorful_smithing_template": "彩りのタックル鍛冶型",
 
-  "item.starcatcher.naturalist_skin_smithing_template": "博物学者のスキン鍛冶型",
-  "item.starcatcher.iceborn_skin_smithing_template": "氷の血脈のスキン鍛冶型",
+  "item.starcatcher.naturalist_skin_smithing_template": "自然主義者のスキン鍛冶型",
+  "item.starcatcher.iceborn_skin_smithing_template": "アイスボーンのスキン鍛冶型",
   "item.starcatcher.magmaforged_skin_smithing_template": "溶岩鍛造のスキン鍛冶型",
   "item.starcatcher.slimed_skin_smithing_template": "べとべとのスキン鍛冶型",
   "item.starcatcher.sharktooth_skin_smithing_template": "サメの歯のスキン鍛冶型",
@@ -592,15 +592,15 @@
   "item.starcatcher.acacia_tackle_box_boat" : "アカシアのタックルボックス付きボート",
   "item.starcatcher.jungle_tackle_box_boat" : "ジャングルのタックルボックス付きボート",
 
-  "block.starcatcher.oak_fish_plaque" : "オークの魚の剥製用盾",
-  "block.starcatcher.dark_oak_fish_plaque" : "ダークオークの魚の剥製用盾",
-  "block.starcatcher.cherry_fish_plaque" : "サクラの魚の剥製用盾",
-  "block.starcatcher.acacia_fish_plaque" : "アカシアの魚の剥製用盾",
-  "block.starcatcher.bamboo_fish_plaque" : "竹の魚の剥製用盾",
-  "block.starcatcher.jungle_fish_plaque" : "ジャングルの魚の剥製用盾",
-  "block.starcatcher.birch_fish_plaque" : "シラカバの魚の剥製用盾",
+  "block.starcatcher.oak_fish_plaque" : "オークの魚の剥製壁掛け",
+  "block.starcatcher.dark_oak_fish_plaque" : "ダークオークの魚の剥製壁掛け",
+  "block.starcatcher.cherry_fish_plaque" : "サクラの魚の剥製壁掛け",
+  "block.starcatcher.acacia_fish_plaque" : "アカシアの魚の剥製壁掛け",
+  "block.starcatcher.bamboo_fish_plaque" : "竹の魚の剥製壁掛け",
+  "block.starcatcher.jungle_fish_plaque" : "ジャングルの魚の剥製壁掛け",
+  "block.starcatcher.birch_fish_plaque" : "シラカバの魚の剥製壁掛け",
   "block.starcatcher.spruce_fish_plaque" : "トウヒの魚の剥製用盾",
-  "block.starcatcher.mangrove_fish_plaque" : "マングローブの魚の剥製用盾",
+  "block.starcatcher.mangrove_fish_plaque" : "マングローブの魚の剥製壁掛け",
 
   "block.starcatcher.aquarium" : "水槽",
 
@@ -1631,7 +1631,7 @@
   "tooltip.starcatcher.king_of_the_frost.1": "触手で獲物を巻き込み、溺れるまで海洋の深みへと引きずり込む。",
   "tooltip.starcatcher.king_of_the_frost.2": "オーバーワールドの氷山群を航海する際、釣り人たちはこの存在に強い警戒を払う。",
 
-  "item.starcatcher.sandtail": "サンドテール",
+  "item.starcatcher.sandtail": "サンドテイル",
   "tooltip.starcatcher.sandtail.0": "暖かい気候にのみ生息する、砂に覆われた細長い魚。",
 
   "item.starcatcher.scorchfish": "スコーチフィッシュ",
@@ -1681,7 +1681,7 @@
   "item.starcatcher.pinfish": "ピンフィッシュ",
   "tooltip.starcatcher.pinfish.0": "真夜中頃にしか見られない、青ざめた小さなピンフィッシュ。",
 
-  "item.starcatcher.pale_carp": "ペールコイ",
+  "item.starcatcher.pale_carp": "ペールカープ",
   "tooltip.starcatcher.pale_carp.0": "[検閲済み]によく見られるコイの一種。",
   "tooltip.starcatcher.pale_carp.1": "この世界線では彼らの生息地がまだ建築中であるため、",
   "tooltip.starcatcher.pale_carp.2": "代わりに「暗い森」に留まっている。",
@@ -2014,7 +2014,7 @@
   "tooltip.starcatcher.chorus_minnow.1": "エンド固有の種であるかどうかは不明である。",
 
   "item.starcatcher.nebula_squid": "ホシウミイカ",
-  "tooltip.starcatcher.nebula_squid.0": "シンダースキッドとは異なり、ネビュラスキッドはかなり粘着性があり、",
+  "tooltip.starcatcher.nebula_squid.0": "モエガライカとは異なりホシウミイカはかなり粘着性があり、",
   "tooltip.starcatcher.nebula_squid.1": "捕食時にはよく触手をコーラスフルーツに巻き付ける。",
 
   "item.starcatcher.coggill": "コグギル",
