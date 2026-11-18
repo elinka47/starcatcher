@@ -39,6 +39,7 @@ public class PlaqueBlockRenderer implements BlockEntityRenderer<PlaqueBlockEntit
 
     public PlaqueBlockRenderer(BlockEntityRendererProvider.Context context)
     {
+        FishRenderer.createMap(context.getModelSet());
         itemRenderer = context.getItemRenderer();
 
         rotation.put(SCItems.CERBERAY.get(), 90f);
@@ -99,7 +100,7 @@ public class PlaqueBlockRenderer implements BlockEntityRenderer<PlaqueBlockEntit
 
             poseStack.translate(0, (-scale / 10) * (SCConfig.FISH_MAX_SCALE.getAsDouble() / 15), 0);
 
-            FishRenderer.renderFishFromItem(itemRenderer, FishRenderer.map, fish, buffer, poseStack, packedLight, OverlayTexture.NO_OVERLAY, be.getLevel());
+            FishRenderer.renderFishFromItem(fish, buffer, poseStack, packedLight, OverlayTexture.NO_OVERLAY);
 
             poseStack.popPose();
         }

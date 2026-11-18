@@ -31,6 +31,7 @@ public class DisplayBlockRenderer implements BlockEntityRenderer<DisplayBlockEnt
     {
         this.bookModel = new DisplayBookModel(context.bakeLayer(DisplayBookModel.LAYER_LOCATION));
         itemRenderer = context.getItemRenderer();
+        FishRenderer.createMap(context.getModelSet());
     }
 
     public void render(DisplayBlockEntity be, float partialTick, PoseStack poseStack, MultiBufferSource buffer, int packedLight, int packedOverlay)
@@ -112,7 +113,7 @@ public class DisplayBlockRenderer implements BlockEntityRenderer<DisplayBlockEnt
 
             // Render model here
 
-            FishRenderer.renderFishFromItem(itemRenderer, FishRenderer.map, fish, buffer, poseStack, packedLight, OverlayTexture.NO_OVERLAY, be.getLevel());
+            FishRenderer.renderFishFromItem(fish, buffer, poseStack, packedLight, OverlayTexture.NO_OVERLAY);
 
             poseStack.popPose();
         }

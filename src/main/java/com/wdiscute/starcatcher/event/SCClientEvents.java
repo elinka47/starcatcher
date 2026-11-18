@@ -2,6 +2,7 @@ package com.wdiscute.starcatcher.event;
 
 import com.wdiscute.starcatcher.SCConfig;
 import com.wdiscute.starcatcher.Starcatcher;
+import com.wdiscute.starcatcher.blocks.aquarium.AquariumGroundModel;
 import com.wdiscute.starcatcher.blocks.plaque.PlaqueBlockRenderer;
 import com.wdiscute.starcatcher.blocks.tacklebox.TackleBoxBlockItem;
 import com.wdiscute.starcatcher.blocks.tacklebox.TackleBoxTooltipRenderer;
@@ -10,6 +11,8 @@ import com.wdiscute.starcatcher.blocks.tacklebox.boat.TackleBoxBoatRenderer;
 import com.wdiscute.starcatcher.bobentity.FishingBobRenderer;
 import com.wdiscute.starcatcher.bobentity.tackles.*;
 import com.wdiscute.starcatcher.fishentity.FishRenderer;
+import com.wdiscute.starcatcher.fishentity.HeldFishLayer;
+import com.wdiscute.starcatcher.fishentity.SCArmPoses;
 import com.wdiscute.starcatcher.fishentity.fishmodels.*;
 import com.wdiscute.starcatcher.guide.FishingGuideScreen;
 import com.wdiscute.starcatcher.locators.FishRadarLayer;
@@ -33,18 +36,26 @@ import com.wdiscute.starcatcher.shaders.GoldRenderer;
 import com.wdiscute.starcatcher.tournament.StandScreen;
 import com.wdiscute.starcatcher.tournament.TournamentLayer;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.blockentity.ChestRenderer;
-import net.minecraft.client.renderer.entity.BoatRenderer;
+import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
+import net.minecraft.client.renderer.entity.player.PlayerRenderer;
+import net.minecraft.client.resources.PlayerSkin;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.packs.resources.ResourceManagerReloadListener;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.*;
+import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
+import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
 @EventBusSubscriber(modid = Starcatcher.MOD_ID, value = Dist.CLIENT)
 public class SCClientEvents
@@ -140,6 +151,9 @@ public class SCClientEvents
 
         //book model
         event.registerLayerDefinition(DisplayBookModel.LAYER_LOCATION, DisplayBookModel::createBodyLayer);
+
+        //aquarium ground
+        event.registerLayerDefinition(AquariumGroundModel.LAYER_LOCATION, AquariumGroundModel::createBodyLayer);
 
         //fishes
         event.registerLayerDefinition(AgaveBream.LAYER_LOCATION, AgaveBream::createBodyLayer);
@@ -252,7 +266,33 @@ public class SCClientEvents
         event.registerLayerDefinition(RippleCatfish.LAYER_LOCATION, RippleCatfish::createBodyLayer);
         event.registerLayerDefinition(BrightAmethystSnapper.LAYER_LOCATION, BrightAmethystSnapper::createBodyLayer);
 
+    }
 
+    private static final IClientItemExtensions HOLD_ABOVE_HEAD = new IClientItemExtensions()
+    {
+        @Override
+        public HumanoidModel.ArmPose getArmPose(LivingEntity entity, InteractionHand hand, ItemStack stack)
+        {
+            return SCArmPoses.HOLD_ABOVE_HEAD.getValue();
+        }
+    };
+
+    @SubscribeEvent
+    public static void onClientExtensions(RegisterClientExtensionsEvent event)
+    {
+        event.registerItem(HOLD_ABOVE_HEAD, SCItems.BUCKETABLE_FISHES_REGISTRY.getEntries()
+                .stream()
+                .map(DeferredHolder::value)
+                .toArray(Item[]::new)
+        );
+    }
+
+    @SubscribeEvent
+    public static void addLayers(EntityRenderersEvent.AddLayers event)
+    {
+        for (PlayerSkin.Model skin : event.getSkins())
+            if (event.getSkin(skin) instanceof PlayerRenderer renderer)
+                renderer.addLayer(new HeldFishLayer(renderer, event.getEntityModels()));
     }
 
     @SubscribeEvent
