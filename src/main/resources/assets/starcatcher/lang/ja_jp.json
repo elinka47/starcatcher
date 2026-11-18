@@ -11,7 +11,7 @@
 
   "structure.minecraft.ancient_city": "古代都市",
   "structure.minecraft.monument": "海底神殿",
-  "structure.minecraft.trial_chambers": "試練の解",
+  "structure.minecraft.trial_chambers": "試練の間",
   "structure.minecraft.end_city": "エンドシティ",
   "structure.minecraft.village_desert": "砂漠の村",
   "structure.minecraft.village_plains": "平原の村",
@@ -59,27 +59,27 @@
   "emi.starcatcher.fp.weight" : " 重み - アイテム",
 
   "emi.starcatcher.open_as_guide_entry" : "ガイドのエントリとして開く",
-  "emi.starcatcher.entity_entry" : "このエントリは常に %s をスポーンさせます",
+  "emi.starcatcher.entity_entry" : "このエントリは常に %s をスポーンさせる",
 
   "emi.category.starcatcher.fishing" : "Starcatcherの釣り",
   "emi.category.starcatcher.smithing" : "Starcatcherの鍛冶",
 
-  "emi.info.starcatcher.worms.0" : "ミミズを餌として使用すると、釣りに関する様々な補正がかかります。",
+  "emi.info.starcatcher.worms.0" : "ミミズを餌として使用すると、釣りに関する様々な補正がかかる",
   "emi.info.starcatcher.worms.1" : "コンポスト可能。",
 
-  "emi.info.starcatcher.bonemeal_farmland" : "耕地に骨粉を使用すると、いくつかの異なるアイテムが得られる場合があります。",
+  "emi.info.starcatcher.bonemeal_farmland" : "耕地に骨粉を使用すると、いくつかの異なるアイテムが得られる場合がある",
 
-  "emi.info.starcatcher.pearls.0" : "砂の上に置かれたハマグリは、ゆっくりと真珠を生成します。",
-  "emi.info.starcatcher.pearls.1" : "ハマグリが開いたら、クリックして真珠を収穫できます。",
+  "emi.info.starcatcher.pearls.0" : "砂の上に置かれたハマグリは、ゆっくりと真珠を生成する",
+  "emi.info.starcatcher.pearls.1" : "ハマグリが開いたら、クリックして真珠を収穫できる",
 
-  "emi.info.starcatcher.attachments.0" : "針、浮き、餌はタックルボックスを使用して釣り竿に取り付けることができます。",
-  "emi.info.starcatcher.attachments.1" : "引き寄せ時間の短縮から難易度を下げるバフまで、様々な「補正」を提供します。",
+  "emi.info.starcatcher.attachments.0" : "針、浮き、餌はタックルボックスを使用して釣り竿に取り付けることができる",
+  "emi.info.starcatcher.attachments.1" : "引き寄せ時間の短縮から難易度を下げるバフまで、様々な「補正」を提供する",
 
-  "emi.info.starcatcher.fish_bones.0" : "魚の骨はStarcaughtの魚を食べた後に入手できます。",
+  "emi.info.starcatcher.fish_bones.0" : "魚の骨はStarcaughtの魚を食べた後に入手できる",
 
-  "emi.info.starcatcher.pearl_template.0" : "この型は、ハマグリから真珠を採取する際に低確率で見つかります。",
+  "emi.info.starcatcher.pearl_template.0" : "この型は、ハマグリから真珠を採取する際に低確率で見つかる",
 
-  "emi.info.starcatcher.hat.0" : "釣り人の帽子は、沈没船のチェストから低確率で見つかります。",
+  "emi.info.starcatcher.hat.0" : "釣り人の帽子は、沈没船のチェストから低確率で見つかる",
 
   "starcatcher.tip.legendary_fish" : "伝説の魚の多くは、伝説の餌が大好きです！",
   "starcatcher.tip.too_hard" : "魚が難しすぎると感じたら？ 使用している浮きや針を見直してみましょう！",
@@ -109,7 +109,7 @@
   "tag.starcatcher.is_cold_ocean" : "冷たい海",
   "tag.starcatcher.is_frozen_ocean" : "凍った海",
   "tag.starcatcher.is_cold_river" : "冷たい川",
-  "tag.starcatcher.is_dark_forest" : "覆われた森",
+  "tag.starcatcher.is_dark_forest" : "暗い森",
   "tag.starcatcher.is_deep_ocean" : "深海",
   "tag.starcatcher.is_mushroom_fields" : "キノコ島",
   "tag.starcatcher.is_ocean" : "すべての海",
@@ -260,12 +260,13 @@
   "gui.starcatcher.processor.fishes_processor.golden" : "- 金の個体の場合、価格が %sx 倍に増加",
 
   "entity.starcatcher.fish" : "Starcaughtの魚",
+  "entity.starcatcher.fish.no_model": "%s のモデルが作成されていません！ 魚アイテムからの魚の召喚はクリエイティブ専用の機能です。クリエイティブモードで召喚した場合は、開発者に報告しないでください。",
   "entity.starcatcher.tackle_box_boat" : "タックルボックス付きボート",
 
-  "gui.starcatcher.bait_out" : "餌が切れてしまいました...",
-  "gui.starcatcher.bait_running_low" : "餌が少なくなっています...",
-  "gui.starcatcher.reel_no_fish" : "ここには魚がいません...",
-  "gui.starcatcher.no_hook_or_bobber" : "釣り竿は針と浮きがなければ機能しません...",
+  "gui.starcatcher.bait_out" : "餌が切れた...",
+  "gui.starcatcher.bait_running_low" : "餌が少なくなっている...",
+  "gui.starcatcher.reel_no_fish" : "ここには魚がいないようだ...",
+  "gui.starcatcher.no_hook_or_bobber" : "釣り竿は針と浮きがなければ機能しない...",
 
   "tooltip.minecraft.fishing_rod.0": "ごく基本的な魚を捕まえるための",
   "tooltip.minecraft.fishing_rod.1": "シンプルな釣り竿。",
@@ -292,7 +293,7 @@
   "item.starcatcher.starcatcher_guide": "Starcatcherのガイドブック",
   "tooltip.starcatcher.starcatcher_guide.0": "釣り人の最高の相棒。",
   "tooltip.starcatcher.starcatcher_guide.1": "釣ったすべての魚と、",
-  "tooltip.starcatcher.starcatcher_guide.2": "これから吊り上げる魚を記録する！",
+  "tooltip.starcatcher.starcatcher_guide.2": "これから釣り上げる魚を記録する！",
 
   "tooltip.starcatcher.starcatcher_guide.signed": "所有者: %s",
   "tooltip.starcatcher.starcatcher_guide.signed_shift": "署名者: %s",
@@ -305,81 +306,81 @@
   "tooltip.starcatcher.modifiers": "釣りの補正:",
   "tooltip.starcatcher.modifiers.active": "<scepic>§lアクティブな補正:</scepic>",
 
-  "tooltip.modifier.starcatcher.quality_food_roll": "釣果の品質が向上します",
-  "tooltip.modifier.starcatcher.quality_food_roll.shift": "釣果の品質抽選がさらに %s 回行われます",
+  "tooltip.modifier.starcatcher.quality_food_roll": "釣果の品質が向上する",
+  "tooltip.modifier.starcatcher.quality_food_roll.shift": "釣果の品質抽選がさらに %s 回行われる",
 
-  "tooltip.modifier.starcatcher.prevent_frozen": "ハンドルの凍結を防ぎます",
+  "tooltip.modifier.starcatcher.prevent_frozen": "ハンドルの凍結を防ぐ",
 
-  "tooltip.modifier.starcatcher.never_lose": "魚が逃げなくなります",
+  "tooltip.modifier.starcatcher.never_lose": "魚が逃げなくなる",
 
-  "tooltip.modifier.starcatcher.bounce_back": "魚が逃げるのを一度だけ跳ね返して防ぎます",
+  "tooltip.modifier.starcatcher.bounce_back": "魚が逃げるのを一度だけ跳ね返して防ぐ",
 
-  "tooltip.modifier.starcatcher.boost_throw_speed": "浮きが非常に遠くまで飛ぶようになります",
+  "tooltip.modifier.starcatcher.boost_throw_speed": "浮きが非常に遠くまで飛ぶようになる",
 
-  "tooltip.modifier.starcatcher.survives_lava": "溶岩での釣りが可能になります",
+  "tooltip.modifier.starcatcher.survives_lava": "溶岩での釣りが可能になる",
 
-  "tooltip.modifier.starcatcher.add_creeper": "機嫌の悪いお友達が現れるかもしれません",
+  "tooltip.modifier.starcatcher.add_creeper": "機嫌の悪いお友達が現れるかもしれない",
 
-  "tooltip.modifier.starcatcher.no_gravity": "浮きが重力に従わなくなります",
+  "tooltip.modifier.starcatcher.no_gravity": "浮きが重力に従わなくなる",
 
-  "tooltip.modifier.starcatcher.gunpowder_bait": "何か...が食いつきやすくなります",
-  "tooltip.modifier.starcatcher.cherry_bait": "桜の木立の魚が食いつきやすくなります",
-  "tooltip.modifier.starcatcher.lush_bait": "繁茂した洞窟の魚が食いつきやすくなります",
-  "tooltip.modifier.starcatcher.sculk_bait": "ディープダークの魚が食いつきやすくなります",
-  "tooltip.modifier.starcatcher.dripstone_bait": "ドリップストーンを好む魚が食いつきやすくなります",
-  "tooltip.modifier.starcatcher.murkwater_bait": "湿原の魚が食いつきやすくなります",
-  "tooltip.modifier.starcatcher.legendary_bait": "伝説の魚が食いつきやすくなります",
+  "tooltip.modifier.starcatcher.gunpowder_bait": "何か...が食いつきやすくなる",
+  "tooltip.modifier.starcatcher.cherry_bait": "桜の木立の魚が食いつきやすくなる",
+  "tooltip.modifier.starcatcher.lush_bait": "繁茂した洞窟の魚が食いつきやすくなる",
+  "tooltip.modifier.starcatcher.sculk_bait": "ディープダークの魚が食いつきやすくなる",
+  "tooltip.modifier.starcatcher.dripstone_bait": "ドリップストーンを好む魚が食いつきやすくなる",
+  "tooltip.modifier.starcatcher.murkwater_bait": "湿原の魚が食いつきやすくなる",
+  "tooltip.modifier.starcatcher.legendary_bait": "伝説の魚が食いつきやすくなる",
 
-  "tooltip.modifier.starcatcher.restricted_rarities": "%s の魚が釣れなくなります",
-  "tooltip.modifier.starcatcher.allowed_rarities": "%s の魚のみ釣れるようになります",
+  "tooltip.modifier.starcatcher.restricted_rarities": "%s の魚が釣れなくなる",
+  "tooltip.modifier.starcatcher.allowed_rarities": "%s の魚のみ釣れるようになる",
   "tooltip.modifier.starcatcher.allowed_rarities.list_last_separator": " および ",
   "tooltip.modifier.starcatcher.allowed_rarities.list_separator": "、",
 
-  "tooltip.modifier.starcatcher.extra_golden_chance.perfect": "パーフェクトキャッチで金の個体になる確率が上がります",
-  "tooltip.modifier.starcatcher.extra_golden_chance.perfect.shift": "パーフェクトキャッチ時に金の個体になる確率が %s%% 増加します",
-  "tooltip.modifier.starcatcher.extra_golden_chance.base": "金の魚が食いつきやすくなります",
-  "tooltip.modifier.starcatcher.extra_golden_chance.base.shift": "金の魚が食いつく確率が %s%% 増加します",
+  "tooltip.modifier.starcatcher.extra_golden_chance.perfect": "パーフェクトキャッチで金の個体になる確率が上がる",
+  "tooltip.modifier.starcatcher.extra_golden_chance.perfect.shift": "パーフェクトキャッチ時に金の個体になる確率が %s%% 増加する",
+  "tooltip.modifier.starcatcher.extra_golden_chance.base": "金の魚が食いつきやすくなる",
+  "tooltip.modifier.starcatcher.extra_golden_chance.base.shift": "金の魚が食いつく確率が %s%% 増加する",
 
-  "tooltip.modifier.starcatcher.award_treasure_on_perfect_catch": "パーフェクトキャッチで宝箱を獲得できる場合があります",
-  "tooltip.modifier.starcatcher.award_treasure_on_perfect_catch.always": "パーフェクトキャッチで必ず宝箱を獲得します",
-  "tooltip.modifier.starcatcher.award_treasure_on_perfect_catch.shift": "パーフェクトキャッチ時に %s%% の確率で宝箱を獲得します",
+  "tooltip.modifier.starcatcher.award_treasure_on_perfect_catch": "パーフェクトキャッチで宝箱を獲得できる場合がある",
+  "tooltip.modifier.starcatcher.award_treasure_on_perfect_catch.always": "パーフェクトキャッチで必ず宝箱を獲得する",
+  "tooltip.modifier.starcatcher.award_treasure_on_perfect_catch.shift": "パーフェクトキャッチ時に %s%% の確率で宝箱を獲得する",
 
-  "tooltip.modifier.starcatcher.spawn_treasure_on_hit_x": "%s 回連続でヒットさせると宝箱が出現します",
+  "tooltip.modifier.starcatcher.spawn_treasure_on_hit_x": "%s 回連続でヒットさせると宝箱が出現する",
 
-  "tooltip.modifier.starcatcher.roll_percentile": "魚がより大きく、重くなります",
-  "tooltip.modifier.starcatcher.roll_percentile.shift": "パーセンタイルが追加で %s 回抽選され、最も良い結果が選ばれます。",
+  "tooltip.modifier.starcatcher.roll_percentile": "魚がより大きく、重くなる",
+  "tooltip.modifier.starcatcher.roll_percentile.shift": "パーセンタイルが追加で %s 回抽選され、最も良い結果が選ばれる",
 
   "tooltip.modifier.starcatcher.anglers_hat": "",
 
-  "tooltip.modifier.starcatcher.hide_catch": "釣りの最中に獲物が見えなくなります",
+  "tooltip.modifier.starcatcher.hide_catch": "釣りの最中に獲物が見えなくなる",
 
-  "tooltip.modifier.starcatcher.freeze_on_miss": "スイートスポットを外すと一定時間ハンドルが凍結します",
+  "tooltip.modifier.starcatcher.freeze_on_miss": "スイートスポットを外すと一定時間ハンドルが凍結する",
 
-  "tooltip.modifier.starcatcher.spawn_frozen_sweetspots": "時々、凍結スイートスポットが出現します",
+  "tooltip.modifier.starcatcher.spawn_frozen_sweetspots": "時々、凍結スイートスポットが出現する",
 
-  "tooltip.modifier.starcatcher.spawn_tnt_sweetspots": "爆発性スイートスポットが出現することがあります",
+  "tooltip.modifier.starcatcher.spawn_tnt_sweetspots": "爆発性スイートスポットが出現することがある",
 
-  "tooltip.modifier.starcatcher.spawn_treasure_on_three_hits": "スイートスポットを3回連続でヒットさせると宝箱が呼び出されます",
+  "tooltip.modifier.starcatcher.spawn_treasure_on_three_hits": "スイートスポットを3回連続でヒットさせると宝箱が呼び出される",
 
-  "tooltip.modifier.starcatcher.slower_moving_sweetspots": "移動するスイートスポットの速度を落とします",
+  "tooltip.modifier.starcatcher.slower_moving_sweetspots": "移動するスイートスポットの速度を落とす",
 
-  "tooltip.modifier.starcatcher.stop_decay_on_hit": "ヒット後、短時間だけ魚が逃げるのを防ぎます",
+  "tooltip.modifier.starcatcher.stop_decay_on_hit": "ヒット後、短時間だけ魚が逃げるのを防ぐ",
 
-  "tooltip.modifier.starcatcher.harder_with_treasure_on_perfect": "難易度が通常より上がりますが、パーフェクトキャッチで宝箱を獲得できます",
+  "tooltip.modifier.starcatcher.harder_with_treasure_on_perfect": "難易度が通常より上がるが、パーフェクトキャッチで宝箱を獲得できる",
 
-  "tooltip.modifier.starcatcher.no_flip": "ヒット時にスイートスポットが反転しなくなります",
+  "tooltip.modifier.starcatcher.no_flip": "ヒット時にスイートスポットが反転しなくなる",
 
-  "tooltip.modifier.starcatcher.slower_vanishing": "消失スイートスポットが消えるまでの時間が長くなります",
+  "tooltip.modifier.starcatcher.slower_vanishing": "消失スイートスポットが消えるまでの時間が長くなる",
 
-  "tooltip.modifier.starcatcher.bigger_green_sweetspots": "緑色のスイートスポットがわずかに大きくなります",
+  "tooltip.modifier.starcatcher.bigger_green_sweetspots": "緑色のスイートスポットがわずかに大きくなる",
 
-  "tooltip.modifier.starcatcher.add_leaves_spots": "葉のスイートスポットがランダムに出現します",
+  "tooltip.modifier.starcatcher.add_leaves_spots": "葉のスイートスポットがランダムに出現する",
 
-  "tooltip.modifier.starcatcher.add_aqua_sweetspot": "水色のスイートスポットが1つ追加されます",
+  "tooltip.modifier.starcatcher.add_aqua_sweetspot": "水色のスイートスポットが1つ追加される",
 
-  "tooltip.modifier.starcatcher.add_three_aqua_sweetspot": "水色のスイートスポットが3つ追加されます",
+  "tooltip.modifier.starcatcher.add_three_aqua_sweetspot": "水色のスイートスポットが3つ追加される",
 
-  "tooltip.modifier.starcatcher.flip_every_hit": "スイートスポットを叩くたびに反転します",
+  "tooltip.modifier.starcatcher.flip_every_hit": "スイートスポットを叩くたびに反転する",
 
   "tooltip.modifier.number.1": "1",
   "tooltip.modifier.number.2": "2",
@@ -396,79 +397,79 @@
   "tooltip.modifier.number.32": "32",
   "tooltip.modifier.number.64": "1スタック",
 
-  "tooltip.modifier.starcatcher.adjust_handle_speed.big_increase": "ハンドルの回転速度を大幅に上昇させます",
-  "tooltip.modifier.starcatcher.adjust_handle_speed.increase": "ハンドルの回転速度を上昇させます",
-  "tooltip.modifier.starcatcher.adjust_handle_speed.decrease": "ハンドルの回転速度を低下させます",
-  "tooltip.modifier.starcatcher.adjust_handle_speed.big_decrease": "ハンドルの回転速度を大幅に低下させます",
-  "tooltip.modifier.starcatcher.adjust_handle_speed.shift": "ハンドルの回転速度を %s%% 調整します",
+  "tooltip.modifier.starcatcher.adjust_handle_speed.big_increase": "ハンドルの回転速度を大幅に上昇させる",
+  "tooltip.modifier.starcatcher.adjust_handle_speed.increase": "ハンドルの回転速度を上昇させる",
+  "tooltip.modifier.starcatcher.adjust_handle_speed.decrease": "ハンドルの回転速度を低下させる",
+  "tooltip.modifier.starcatcher.adjust_handle_speed.big_decrease": "ハンドルの回転速度を大幅に低下させる",
+  "tooltip.modifier.starcatcher.adjust_handle_speed.shift": "ハンドルの回転速度を %s%% 調整する",
 
-  "tooltip.modifier.starcatcher.add_basic_sweetspot": "スイートスポットを1つ追加します",
-  "tooltip.modifier.starcatcher.dripstone_bobber": "鍾乳石スイートスポットを追加します",
-  "tooltip.modifier.starcatcher.glowing_bobber": "発光スイートスポットを追加します",
+  "tooltip.modifier.starcatcher.add_basic_sweetspot": "スイートスポットを1つ追加する",
+  "tooltip.modifier.starcatcher.dripstone_bobber": "鍾乳石スイートスポットを追加する",
+  "tooltip.modifier.starcatcher.glowing_bobber": "発光スイートスポットを追加する",
 
-  "tooltip.modifier.starcatcher.adjust_vanishing_rate.big_increase": "スイートスポットの消失速度を大幅に上昇させます",
-  "tooltip.modifier.starcatcher.adjust_vanishing_rate.increase": "スイートスポットの消失速度を上昇させます",
-  "tooltip.modifier.starcatcher.adjust_vanishing_rate.decrease": "スイートスポットの消失速度を低下させます",
-  "tooltip.modifier.starcatcher.adjust_vanishing_rate.big_decrease": "スイートスポットの消失速度を大幅に低下させます",
-  "tooltip.modifier.starcatcher.adjust_vanishing_rate.shift": "スイートスポットの消失速度を %s%% 調整します",
+  "tooltip.modifier.starcatcher.adjust_vanishing_rate.big_increase": "スイートスポットの消失速度を大幅に上昇させる",
+  "tooltip.modifier.starcatcher.adjust_vanishing_rate.increase": "スイートスポットの消失速度を上昇させる",
+  "tooltip.modifier.starcatcher.adjust_vanishing_rate.decrease": "スイートスポットの消失速度を低下させる",
+  "tooltip.modifier.starcatcher.adjust_vanishing_rate.big_decrease": "スイートスポットの消失速度を大幅に低下させる",
+  "tooltip.modifier.starcatcher.adjust_vanishing_rate.shift": "スイートスポットの消失速度を %s%% 調整する",
 
-  "tooltip.modifier.starcatcher.adjust_lure_time.big_increase": "引き寄せ時間を大幅に延長します",
-  "tooltip.modifier.starcatcher.adjust_lure_time.increase": "引き寄せ時間を延長します",
-  "tooltip.modifier.starcatcher.adjust_lure_time.decrease": "引き寄せ時間を短縮します",
-  "tooltip.modifier.starcatcher.adjust_lure_time.big_decrease": "引き寄せ時間を大幅に短縮します",
-  "tooltip.modifier.starcatcher.adjust_lure_time.shift.min_ticks": "釣れるまでの最小時間を %s%% 調整します",
-  "tooltip.modifier.starcatcher.adjust_lure_time.shift.max_ticks": "釣れるまでの最大時間を %s%% 調整します",
-  "tooltip.modifier.starcatcher.adjust_lure_time.shift.random": "1ティックごとに食いつく確率を %s%% 調整します",
+  "tooltip.modifier.starcatcher.adjust_lure_time.big_increase": "引き寄せ時間を大幅に延長する",
+  "tooltip.modifier.starcatcher.adjust_lure_time.increase": "引き寄せ時間を延長する",
+  "tooltip.modifier.starcatcher.adjust_lure_time.decrease": "引き寄せ時間を短縮する",
+  "tooltip.modifier.starcatcher.adjust_lure_time.big_decrease": "引き寄せ時間を大幅に短縮する",
+  "tooltip.modifier.starcatcher.adjust_lure_time.shift.min_ticks": "釣れるまでの最小時間を %s%% 調整する",
+  "tooltip.modifier.starcatcher.adjust_lure_time.shift.max_ticks": "釣れるまでの最大時間を %s%% 調整する",
+  "tooltip.modifier.starcatcher.adjust_lure_time.shift.random": "1ティックごとに食いつく確率を %s%% 調整する",
 
-  "tooltip.modifier.starcatcher.increase_chance": "%s がより釣れやすくなります",
-  "tooltip.modifier.starcatcher.increase_chance.shift": "%s が釣れる重みを %s 増加させます",
+  "tooltip.modifier.starcatcher.increase_chance": "%s がより釣れやすくなる",
+  "tooltip.modifier.starcatcher.increase_chance.shift": "%s が釣れる重みを %s 増加させる",
 
-  "tooltip.modifier.starcatcher.adjust_moving_sweetspots.increase": "移動するスイートスポットの速度を上げます",
-  "tooltip.modifier.starcatcher.adjust_moving_sweetspots.decrease": "移動するスイートスポットの速度を下げます",
-  "tooltip.modifier.starcatcher.adjust_moving_sweetspots.shift": "移動するスイートスポットの速度を %s%% 調整します",
+  "tooltip.modifier.starcatcher.adjust_moving_sweetspots.increase": "移動するスイートスポットの速度を上げる",
+  "tooltip.modifier.starcatcher.adjust_moving_sweetspots.decrease": "移動するスイートスポットの速度を下げる",
+  "tooltip.modifier.starcatcher.adjust_moving_sweetspots.shift": "移動するスイートスポットの速度を %s%% 調整する",
 
-  "tooltip.modifier.starcatcher.adjust_decay_rate.increase": "魚が逃げる速度を早めます",
-  "tooltip.modifier.starcatcher.adjust_decay_rate.decrease": "魚が逃げる速度を遅くします",
-  "tooltip.modifier.starcatcher.adjust_decay_rate.shift": "魚の逃走速度を %s%% 調整します",
+  "tooltip.modifier.starcatcher.adjust_decay_rate.increase": "魚が逃げる速度を早くする",
+  "tooltip.modifier.starcatcher.adjust_decay_rate.decrease": "魚が逃げる速度を遅くする",
+  "tooltip.modifier.starcatcher.adjust_decay_rate.shift": "魚の逃走速度を %s%% 調整する",
 
-  "tooltip.modifier.starcatcher.adjust_penalty_rate.increase": "スイートスポットを外した際のペナルティを増やします",
-  "tooltip.modifier.starcatcher.adjust_penalty_rate.decrease": "スイートスポットを外した際のペナルティを減らします",
-  "tooltip.modifier.starcatcher.adjust_penalty_rate.shift": "スイートスポットミスのペナルティを %s%% 調整します",
+  "tooltip.modifier.starcatcher.adjust_penalty_rate.increase": "スイートスポットを外した際のペナルティを増やす",
+  "tooltip.modifier.starcatcher.adjust_penalty_rate.decrease": "スイートスポットを外した際のペナルティを減らす",
+  "tooltip.modifier.starcatcher.adjust_penalty_rate.shift": "スイートスポットミスのペナルティを %s%% 調整する",
 
-  "tooltip.modifier.starcatcher.adjust_hp.increase": "魚を引き上げるのが難しくなります",
-  "tooltip.modifier.starcatcher.adjust_hp.decrease": "魚を引き上げるのが簡単になります",
-  "tooltip.modifier.starcatcher.adjust_hp.shift": "魚のHPを %s%% 調整します",
+  "tooltip.modifier.starcatcher.adjust_hp.increase": "魚を引き上げるのが難しくなる",
+  "tooltip.modifier.starcatcher.adjust_hp.decrease": "魚を引き上げるのが簡単になる",
+  "tooltip.modifier.starcatcher.adjust_hp.shift": "魚のHPを %s%% 調整する",
 
-  "tooltip.modifier.starcatcher.vanilla_fishing_loot": "バニラの釣り戦利品に戻します",
-  "tooltip.modifier.starcatcher.skip_minigame_if_vanilla_bobber": "バニラ風の浮きと組み合わせて装備するとミニゲームをスキップします",
+  "tooltip.modifier.starcatcher.vanilla_fishing_loot": "バニラの釣り戦利品に戻す",
+  "tooltip.modifier.starcatcher.skip_minigame_if_vanilla_bobber": "バニラ風の浮きと組み合わせて装備するとミニゲームをスキップできる",
 
-  "tooltip.modifier.starcatcher.luck_attribute": "幸運のステータスに基づいて魚の出現率を調整します",
+  "tooltip.modifier.starcatcher.luck_attribute": "幸運のステータスに基づいて魚の出現率を調整する",
 
-  "tooltip.modifier.starcatcher.burn_on_miss": "ミスするとハンドルが炎上します",
+  "tooltip.modifier.starcatcher.burn_on_miss": "ミスするとハンドルが炎上する",
 
-  "tooltip.modifier.starcatcher.deep_dark": "スイートスポットをヒットさせると暗闇に包まれます",
+  "tooltip.modifier.starcatcher.deep_dark": "スイートスポットをヒットさせると暗闇に包まれる",
 
-  "tooltip.modifier.starcatcher.ignore_daytime_restrictions": "釣りの時間帯制限を無視します",
-  "tooltip.modifier.starcatcher.ignore_daytime_restrictions.maybe": "釣りの時間帯制限が時々バイパスされます",
-  "tooltip.modifier.starcatcher.ignore_daytime_restrictions.shift": "%s%% の確率で釣りの時間帯制限を無視します",
+  "tooltip.modifier.starcatcher.ignore_daytime_restrictions": "釣りの時間帯制限を無視する",
+  "tooltip.modifier.starcatcher.ignore_daytime_restrictions.maybe": "釣りの時間帯制限が時々無視する",
+  "tooltip.modifier.starcatcher.ignore_daytime_restrictions.shift": "%s%% の確率で釣りの時間帯制限を無視する",
 
   "tooltip.modifier.starcatcher.ignore_weather_restrictions": "釣りの天候制限を無視します",
-  "tooltip.modifier.starcatcher.ignore_weather_restrictions.maybe": "釣りの天候制限が時々バイパスされます",
-  "tooltip.modifier.starcatcher.ignore_weather_restrictions.shift": "%s%% の確率で釣りの天候制限を無視します",
+  "tooltip.modifier.starcatcher.ignore_weather_restrictions.maybe": "釣りの時間帯制限を無視する",
+  "tooltip.modifier.starcatcher.ignore_weather_restrictions.shift": "%s%% の確率で釣りの天候制限を無視する",
 
-  "tooltip.modifier.starcatcher.new_catch_increase.shift" : "未獲得の魚の基本出現率を %s 追加で増加させます",
-  "tooltip.modifier.starcatcher.new_catch_increase" : "新種の魚が食いつく可能性を高めます",
+  "tooltip.modifier.starcatcher.new_catch_increase.shift" : "未獲得の魚の基本出現率を %s 追加で増加させる",
+  "tooltip.modifier.starcatcher.new_catch_increase" : "新種の魚が食いつく可能性を上げる",
 
-  "tooltip.modifier.starcatcher.cancel_golden" : "金の魚が釣れなくなります",
+  "tooltip.modifier.starcatcher.cancel_golden" : "金の魚が釣れなくなる",
 
-  "tooltip.modifier.starcatcher.extra_exp_based_on_performance": "釣りの成果に応じて追加の経験値が与えられます",
+  "tooltip.modifier.starcatcher.extra_exp_based_on_performance": "釣りの成果に応じて追加の経験値が与えられる",
 
-  "tooltip.modifier.starcatcher.force_fish_entity": "利用可能な場合、代わりに生の魚エンティティを捕獲します",
+  "tooltip.modifier.starcatcher.force_fish_entity": "利用可能な場合、代わりに生の魚エンティティを捕獲する",
 
-  "tooltip.modifier.starcatcher.guarantee_new_fish_always": "利用可能な場合、未発見の魚が必ず食いつきます",
+  "tooltip.modifier.starcatcher.guarantee_new_fish_always": "利用可能な場合、未発見の魚が必ず食いつく",
   "tooltip.modifier.starcatcher.guarantee_new_fish_half": "未発見の魚が食いつきやすくなります",
 
-  "tooltip.modifier.starcatcher.extra_base_catch": "釣果と一緒に追加で %s 匹の魚が連れます",
+  "tooltip.modifier.starcatcher.extra_base_catch": "釣果と一緒に追加で %s 匹の魚が釣れる",
   "tooltip.modifier.starcatcher.extra_base_catch.1": "1",
 
   "tooltip.tackle.starcatcher.kimbe": "キンベ",
@@ -483,7 +484,7 @@
 
   "item.starcatcher.hook": "鉄の針",
   "tooltip.starcatcher.hook.0": "釣り竿用の基本的な鉄の針。",
-  "tooltip.starcatcher.hook.1": "誰でも最初はここから始まる。",
+  "tooltip.starcatcher.hook.1": "誰でも最初はここから始まる",
 
   "item.starcatcher.shiny_hook": "輝く針",
   "item.starcatcher.gold_hook": "金の針",
@@ -599,10 +600,11 @@
   "block.starcatcher.bamboo_fish_plaque" : "竹の魚の剥製壁掛け",
   "block.starcatcher.jungle_fish_plaque" : "ジャングルの魚の剥製壁掛け",
   "block.starcatcher.birch_fish_plaque" : "シラカバの魚の剥製壁掛け",
-  "block.starcatcher.spruce_fish_plaque" : "トウヒの魚の剥製用盾",
+  "block.starcatcher.spruce_fish_plaque" : "トウヒの魚の剥製壁掛け",
   "block.starcatcher.mangrove_fish_plaque" : "マングローブの魚の剥製壁掛け",
 
   "block.starcatcher.aquarium" : "水槽",
+  "block.starcatcher.aquarium.dead_fish": "死んだ魚は水槽に入れられない...",
 
   "block.starcatcher.fisherman_hat_black": "黒色の釣り人の帽子",
   "block.starcatcher.fisherman_hat_blue": "青色の釣り人の帽子",
@@ -1018,7 +1020,7 @@
   "gui.guide.page.6.left.6" : "見た目まで、様々な装飾",
   "gui.guide.page.6.left.7" : "アイテムが存在します。",
   "gui.guide.page.6.left.8" : "",
-  "gui.guide.page.6.left.9" : "  すべての装飾品を買い揃えるのは、",
+  "gui.guide.page.6.left.9" : "  すべての装飾品を集めるのは、",
   "gui.guide.page.6.left.10" : "最もおしゃれにこだわる",
   "gui.guide.page.6.left.11" : "釣り人に与えられた試練です！",
   "gui.guide.page.6.left.12" : "",
@@ -1204,9 +1206,12 @@
   "gui.guide.page.12.right.8" : "  条件を満たすと、トロフィーが",
   "gui.guide.page.12.right.9" : "即座に針に食いつきます。",
   "gui.guide.page.12.right.10" : "",
+  "gui.guide.page.12.right.11": "  トロフィーは条件がすべて",
+  "gui.guide.page.12.right.12": "  満たされると、即座に",
+  "gui.guide.page.12.right.13": "  針に食いつきます。",
 
-  "gui.guide.hover.dimension.correct" : "✅ ディメンション",
-  "gui.guide.hover.dimension.incorrect" : "❌ ディメンション",
+  "gui.guide.hover.dimension.correct" : "✅ 次元",
+  "gui.guide.hover.dimension.incorrect" : "❌ 次元",
   "gui.guide.hover.biome.correct" : "✅ バイオーム",
   "gui.guide.hover.biome.incorrect" : "❌ バイオーム",
   "gui.guide.hover.daytime.correct" : "✅ 時間帯",
@@ -1421,7 +1426,7 @@
   "starcatcher.message.hopeless.8" : "架空の秘宝を追い求めて消えたという思いを",
   "starcatcher.message.hopeless.9" : "抱えて生きていくことになるのだ。",
   "starcatcher.message.hopeless.10" : "",
-  "starcatcher.message.hopeless.11" : "水中息術をもたらすアイテムなどという幻想を",
+  "starcatcher.message.hopeless.11" : "水中呼吸ができるアイテムなどという幻想を",
   "starcatcher.message.hopeless.12" : "信じた自分が愚かだった。情けない。",
   "starcatcher.message.hopeless.13" : "",
   "starcatcher.message.hopeless.14" : "",
@@ -1443,7 +1448,7 @@
   "starcatcher.message.true_blue.12" : "",
   "starcatcher.message.true_blue.13" : "   あなたの母の母の中に、",
   "starcatcher.message.true_blue.14" : "   あなたの子の子の中に、",
-  "starcatcher.message.true_blue.15" : "   夢の中か、あるいは現（つつし）にか。",
+  "starcatcher.message.true_blue.15" : "   夢の中か、あるいは浮世か。",
   "starcatcher.message.true_blue.sender" : "",
 
   "starcatcher.message.wither.0"  : "",
@@ -1464,17 +1469,35 @@
   "starcatcher.message.wither.15" : "",
   "starcatcher.message.wither.sender" : "",
 
+  "starcatcher.message.the_end.0": "",
+  "starcatcher.message.the_end.1": "終わりなんてものは本当はないんだ、と",
+  "starcatcher.message.the_end.2": "ふと考えていた。",
+  "starcatcher.message.the_end.3": "",
+  "starcatcher.message.the_end.4": "すべては同じ場所から来て、",
+  "starcatcher.message.the_end.5": "同じ場所へ還っていく。どこでもない場所へ。",
+  "starcatcher.message.the_end.6": "",
+  "starcatcher.message.the_end.7": "",
+  "starcatcher.message.the_end.8": "では、始まりが終わりで、",
+  "starcatcher.message.the_end.9": "終わりが始まりなら、",
+  "starcatcher.message.the_end.10": "そもそも終わりとは何なのだろう？",
+  "starcatcher.message.the_end.11": "",
+  "starcatcher.message.the_end.12": "それで、よく眠れるようになるかい？",
+  "starcatcher.message.the_end.13": "黙示録の空に広がる",
+  "starcatcher.message.the_end.14": "薔薇色の靄のように。",
+  "starcatcher.message.the_end.15": "それとも、嘘の中の安らぎのように？",
+  "starcatcher.message.the_end.sender": "",
+
   "item.starcatcher.letter" : "手紙",
-  "tooltip.starcatcher.letter.0" : "書き込まれ、送られるのを待っている手紙。",
+  "tooltip.starcatcher.letter.0" : "書き込まれ、送り出されるのを待っている手紙",
 
   "item.starcatcher.bottled_letter" : "瓶詰めの手紙",
   "tooltip.starcatcher.bottled_letter.0" : "瓶の中に閉じ込められた手紙。",
   "tooltip.starcatcher.bottled_letter.1" : "あとは海に投げ入れて、",
   "tooltip.starcatcher.bottled_letter.2" : "その旅を始めさせるだけだ。",
 
-  "item.starcatcher.bottled_letter.thrown" : "瓶詰めの手紙が旅に出ました...",
-  "item.starcatcher.bottled_letter.dropped" : "落としただけの瓶詰め手紙は遠くへ行けません...",
-  "item.starcatcher.bottled_letter.thrown.fail" : "瓶詰めの手紙はカニに食べられてしまったようです... [アイテム内に編集可能なメッセージデータコンポーネントが見つかりません。チート入手でない場合は開発者に報告してください！]",
+  "item.starcatcher.bottled_letter.thrown" : "瓶詰めの手紙が旅に出た...",
+  "item.starcatcher.bottled_letter.dropped" : "落としただけの瓶詰め手紙は遠くへ行けない...",
+  "item.starcatcher.bottled_letter.thrown.fail" : "瓶詰めの手紙はカニに食べられてしまったようだ... [アイテム内に編集可能なメッセージデータコンポーネントが見つかりません。チート入手でない場合は開発者に報告してください！]",
 
   "item.starcatcher.message_in_a_bottle" : "ボトルメール",
   "tooltip.starcatcher.message_in_a_bottle.0" : "遥か昔に書かれたメッセージが入った瓶。",
@@ -1482,7 +1505,7 @@
 
   "item.starcatcher.message" : "メッセージの紙片",
   "tooltip.starcatcher.message.0" : "ボトルメールから取り出されたメッセージの半分。",
-  "tooltip.starcatcher.message.1" : "あなたのもとに届くまで、どれほどの時間を波間で過ごしてきたのだろうか。",
+  "tooltip.starcatcher.message.1" : "あなたのもとに届くまで、どれほどの時間を波間で過ごしてきたのだろうか",
 
   "item.starcatcher.broken_bottle" : "割れた瓶",
   "tooltip.starcatcher.broken_bottle.0" : "割れていなかった頃を懐かしむガラスの破片。",
@@ -1495,18 +1518,18 @@
 
   "item.starcatcher.settings" : "設定",
 
-  "item.starcatcher.starcaught_fish" : "星掴みの魚",
+  "item.starcatcher.starcaught_fish" : "Starcaughtの魚",
   "tooltip.starcatcher.starcaught_fish.0" : "スタックに収まるよう固有の特性を取り除かれた魚。",
   "tooltip.starcatcher.starcaught_fish.1" : "こんな結末になるとは、なんとも残念だ。",
 
-  "item.starcatcher.cooked_starcaught_fish" : "調理された星掴みの魚",
+  "item.starcatcher.cooked_starcaught_fish" : "調理されたStarcaughtの魚",
   "tooltip.starcatcher.cooked_starcaught_fish.0" : "調理されたStarcaughtの魚。",
   "tooltip.starcatcher.cooked_starcaught_fish.1" : "かつて美しかった魚の面影は、もう残っていない。",
 
-  "item.starcatcher.starcaught_bucket" : "星掴みのバケツ",
+  "item.starcatcher.starcaught_bucket" : "Starcaughtのバケツ",
   "tooltip.starcatcher.starcaught_bucket.name" : "%s 入りバケツ",
 
-  "item.starcatcher.starcaught_lava_bucket" : "星掴みの溶岩バケツ",
+  "item.starcatcher.starcaught_lava_bucket" : "Starcaughtの溶岩バケツ",
   "tooltip.starcatcher.starcaught_lava_bucket.name" : "%s 入り溶岩バケツ",
 
   "tooltip.starcatcher.starcaught_bucket.creative.0" : "[クリエイティブモード] このバケツは常に CERBERAY をスポーンさせます。対応する [X入りバケツ] を入手するには、バケツを餌にして通常の方法で釣り上げる必要があります。",
@@ -1536,7 +1559,7 @@
   "tooltip.starcatcher.rockgill.1": "極上のシチューの材料になると言われているが、",
   "tooltip.starcatcher.rockgill.2": "少なくとも皮を噛みちぎれる丈夫な歯の持ち主限定だ。",
 
-  "item.starcatcher.silverveil_perch": "シルパーヴェイルパーチ",
+  "item.starcatcher.silverveil_perch": "シルバーヴェイルパーチ",
   "tooltip.starcatcher.silverveil_perch.0": "銀のようなウロコを持つ小さなパーチ。",
 
   "item.starcatcher.elderscale": "エルダースケール",
@@ -1560,11 +1583,11 @@
 
   "item.starcatcher.thunder_bass": "カミナリバス",
   "tooltip.starcatcher.thunder_bass.0": "雷雨の轟音に引き寄せられる珍しいブラックバスの一種。",
-  "tooltip.starcatcher.thunder_bass.1": "ライトニングベースと一緒に泳いでいる姿がよく目撃される。",
+  "tooltip.starcatcher.thunder_bass.1": "イナズマバスと一緒に泳いでいる姿がよく目撃される。",
 
   "item.starcatcher.lightning_bass": "イナズマバス",
   "tooltip.starcatcher.lightning_bass.0": "雷雨の中、稲妻の閃光に引き寄せられる珍しいブラックバスの一種。",
-  "tooltip.starcatcher.lightning_bass.1": "サンダーベースと一緒に泳いでいる姿がよく目撃される。",
+  "tooltip.starcatcher.lightning_bass.1": "カミナリバスと一緒に泳いでいる姿がよく目撃される。",
 
   "item.starcatcher.frostjaw_trout": "氷顎のマス",
   "tooltip.starcatcher.frostjaw_trout.0": "硬く凍りついた剃刀状のアゴを持つことで知られるマスの一種。",
@@ -1654,7 +1677,7 @@
 
   "item.starcatcher.oasis_sturgeon": "オアシスチョウザメ",
   "tooltip.starcatcher.oasis_sturgeon.0": "威厳あふれる<sclegendary>伝説の</sclegendary>チョウザメ。",
-  "tooltip.starcatcher.oasis_sturgeon.1": "目撃例が非常に少知のため、その存在自体が確定していない。",
+  "tooltip.starcatcher.oasis_sturgeon.1": "目撃例が非常に少ないため、その存在自体が定かではない。",
   "tooltip.starcatcher.oasis_sturgeon.2": "伝説によれば、すべてのオアシスには水底から静かに見守るこの魚が一匹ずつ潜んでいるという。",
 
   "item.starcatcher.mossy_boot": "苔むしたブーツ",
@@ -1664,7 +1687,7 @@
   "tooltip.starcatcher.sludge_catfish.0": "濁った湿原の水によく見られる泥まみれのナマズの一種。",
   "tooltip.starcatcher.sludge_catfish.1": "適切に下処理すれば、驚くほど美味しい料理になる。",
 
-  "item.starcatcher.lily_snapper": "リリｨスナッパー",
+  "item.starcatcher.lily_snapper": "リリィスナッパー",
   "tooltip.starcatcher.lily_snapper.0": "湿地に生息する、細長い体をした珍しいスナッパー。",
   "tooltip.starcatcher.lily_snapper.1": "長く尖った口で小魚を捕食する。",
 
@@ -1722,7 +1745,7 @@
   "tooltip.starcatcher.cloudfin.1": "下手くそな釣り人ほどこれを釣り上げてしまうと言われているが、理由は誰にも分からない。",
 
   "item.starcatcher.silverfin_pike": "シルバーフィンパイク",
-  "tooltip.starcatcher.silverfin_pike.0": "川によく見られる大きなカワカマス（パイク）。",
+  "tooltip.starcatcher.silverfin_pike.0": "川によく見られる大きなパイク。",
 
   "item.starcatcher.carpenjoe": "カーペンジョー",
   "tooltip.starcatcher.carpenjoe.0": "MOD制作の知識で輝く威厳あふれるコイ。",
@@ -1877,7 +1900,7 @@
   "item.starcatcher.shadowfin": "カゲヒレウオ",
   "tooltip.starcatcher.shadowfin.0": "他の魚のほとんどを嫌う不機嫌な魚。",
   "tooltip.starcatcher.shadowfin.1": "日中は日陰で過ごし、",
-  "tooltip.starcatcher.shadowfin.2": "つがいのモコケヒレウオに会うためだけに姿を現す。",
+  "tooltip.starcatcher.shadowfin.2": "つがいのコケヒレウオに会うためだけに姿を現す。",
 
   "item.starcatcher.mossfin": "コケヒレウオ",
   "tooltip.starcatcher.mossfin.0": "妙に大きな目をしているが、可愛いということ以外に何の意味もない。",
